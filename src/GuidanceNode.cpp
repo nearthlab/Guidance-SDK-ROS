@@ -226,7 +226,7 @@ std::cout<<"Error: "<<(e_sdk_err_code)err_code<<" at "<<__LINE__<<","<<__FILE__<
 int main(int argc, char** argv)
 {
     if (argc < 2) {
-        show_images = true;
+        show_images = false;
         verbosity = 2;
     }
 	if(argc==2 && !strcmp(argv[1], "h")){
